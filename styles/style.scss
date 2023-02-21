@@ -252,3 +252,11 @@ footer {
     }
   }
 }
+
+@media screen and (max-width: 500px) {
+  main #home .container .row .row {
+    max-width: 95%;
+    margin-right: auto;
+    margin-left: auto;
+  }
+}
