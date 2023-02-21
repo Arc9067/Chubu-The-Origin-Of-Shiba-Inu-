@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600&display=swap");
+:root {
+  --clr-primary: #121414;
+  --clr-sec: #3c924a;
+  --text-clr: #e5e5e5;
+  --white: #ffffff;
+  --header-height: 3.5rem;
+  --body-clr: #191b1c;
+  /*========== Font and typography ==========*/
+  --Mont: "Montserrat", sans-serif;
+  --open: "Open Sans", sans-serif;
+  --biggest-font-size: 2rem;
+  --h1-font-size: 1.5rem;
+  --h2-font-size: 1.25rem;
+  --h3-font-size: 1rem;
+  --normal-font-size: 0.938rem;
+  --small-font-size: 0.813rem;
+  --smaller-font-size: 0.75rem;
+  /*========== Font weight ==========*/
+  --openReg: 400;
+  --openMed: 500;
+  --openSemi: 800;
+  --MontReg: 400;
+  --MontMed: 500;
+  --MontSemi: 600;
+  --MontBold: 700;
+}
+
+/*
+    variable declaration ends here
+*/
+/* Responsive typography */
+@media screen and (min-width: 992px) {
+  :root {
+    --biggest-font-size: 4rem;
+    --h1-font-size: 2.25rem;
+    --h2-font-size: 1.5rem;
+    --h3-font-size: 1.25rem;
+    --normal-font-size: 1rem;
+    --small-font-size: 0.875rem;
+    --smaller-font-size: 0.813rem;
+  }
+}
+body {
+  background-color: var(--body-clr);
+  font-family: var(--open);
+  font-size: var(--normal-font-size);
+  position: relative;
+  overflow-x: hidden;
+  color: var(--white);
+}
+
+main {
+  min-height: 100vh;
+  width: 100%;
+  padding-top: 3rem;
+}
+main #home {
+  min-height: 100vh;
+  width: 100vw;
+}
+main #home .container .row .subtitle {
+  font-family: var(--Mont);
+  font-weight: var(--MontBold);
+  text-transform: capitalize;
+  color: var(--clr-sec);
+  font-size: var(--h2-font-size);
+}
+main #home .container .row .title {
+  font-size: var(--biggest-font-size);
+  font-family: var(--Mont);
+  font-weight: var(--MontBold);
+}
+main #home .container .row .des {
+  color: var(--text-clr);
+}
+main #home .container .row .btn {
+  background-color: var(--clr-sec);
+  padding: 0.5rem 30px;
+  text-transform: capitalize;
+  font-family: var(--Mont);
+  font-weight: var(--MontBold);
+  color: var(--white);
+}
+main #home .container .row .row {
+  margin-top: 2rem;
+  outline: 1px solid rgba(204, 204, 204, 0.5960784314);
+  border-radius: 5px;
+  min-height: 200px;
+  text-align: center;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+main #home .container .row .row diV {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+main #home .container .row .row i {
+  font-size: var(--biggest-font-size);
+  color: var(--clr-sec);
+}
+main #home .container .row .row h2 {
+  font-size: var(--h3-font-size);
+  font-family: var(--Mont);
+  font-weight: var(--MontMed);
+  text-transform: capitalize;
+}
+main #home .container .row .home-img img {
+  width: 100%;
+}/*# sourceMappingURL=style.css.map */
