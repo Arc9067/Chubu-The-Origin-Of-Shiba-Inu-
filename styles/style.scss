@@ -61,7 +61,7 @@ main {
   padding-top: 3rem;
 
   #home {
-    min-height: 100vh;
+    // min-height: 100vh;
     width: 100vw;
     // background-color: green;
     .container {
@@ -122,6 +122,58 @@ main {
         .home-img {
           img {
             width: 100%;
+          }
+        }
+      }
+    }
+  }
+
+  #tokenomics {
+    // min-height: 100vh;
+    width: 100%;
+    // background-color: red;
+    padding-top: 20px;
+
+    .container {
+      .title {
+        font-size: var(--biggest-font-size);
+        text-align: center;
+        font-family: var(--Mont);
+        color: var(--white);
+        font-weight: var(--MontSemi);
+        max-width: 35rem;
+        display: block;
+        margin: 0 auto;
+        text-transform: capitalize;
+
+        span {
+          color: var(--clr-sec);
+        }
+      }
+      .row {
+        margin: 0 auto;
+        justify-content: space-between;
+        margin-top: 20px;
+
+        div {
+          background-color: transparent;
+          min-height: 300px;
+          border-radius: 9px;
+          padding: 10px;
+          border: 0.7px solid rgba(211, 211, 211, 0.425);
+          margin: 0 auto;
+          margin-bottom: 10px;
+          .title1 {
+            text-transform: capitalize;
+            font-family: var(--Mont);
+            font-weight: var(--MontSemi);
+            font-size: var(--h2-font-size);
+          }
+          h4 {
+            font-size: var(--h3-font-size);
+          }
+          p {
+            color: #b3b3b3;
           }
         }
       }

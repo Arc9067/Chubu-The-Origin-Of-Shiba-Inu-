@@ -56,7 +56,6 @@ main {
   padding-top: 3rem;
 }
 main #home {
-  min-height: 100vh;
   width: 100vw;
 }
 main #home .container .row .subtitle {
@@ -109,4 +108,48 @@ main #home .container .row .row h2 {
 }
 main #home .container .row .home-img img {
   width: 100%;
+}
+main #tokenomics {
+  width: 100%;
+  padding-top: 20px;
+}
+main #tokenomics .container .title {
+  font-size: var(--biggest-font-size);
+  text-align: center;
+  font-family: var(--Mont);
+  color: var(--white);
+  font-weight: var(--MontSemi);
+  max-width: 35rem;
+  display: block;
+  margin: 0 auto;
+  text-transform: capitalize;
+}
+main #tokenomics .container .title span {
+  color: var(--clr-sec);
+}
+main #tokenomics .container .row {
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+main #tokenomics .container .row div {
+  background-color: transparent;
+  min-height: 300px;
+  border-radius: 9px;
+  padding: 10px;
+  border: 0.7px solid rgba(211, 211, 211, 0.425);
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+main #tokenomics .container .row div .title1 {
+  text-transform: capitalize;
+  font-family: var(--Mont);
+  font-weight: var(--MontSemi);
+  font-size: var(--h2-font-size);
+}
+main #tokenomics .container .row div h4 {
+  font-size: var(--h3-font-size);
+}
+main #tokenomics .container .row div p {
+  color: #b3b3b3;
 }/*# sourceMappingURL=style.css.map */
