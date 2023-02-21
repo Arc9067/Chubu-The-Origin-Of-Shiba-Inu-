@@ -99,7 +99,7 @@ main #home .container .row .btn {
 }
 main #home .container .row .row {
   margin-top: 2rem;
-  outline: 1px solid rgba(204, 204, 204, 0.5960784314);
+  border: 0.7px solid rgba(211, 211, 211, 0.425);
   border-radius: 5px;
   min-height: 200px;
   text-align: center;
