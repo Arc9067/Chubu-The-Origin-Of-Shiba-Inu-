@@ -140,6 +140,9 @@ main #tokenomics .container .row div {
   border: 0.7px solid rgba(211, 211, 211, 0.425);
   margin: 0 auto;
   margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
 main #tokenomics .container .row div .title1 {
   text-transform: capitalize;

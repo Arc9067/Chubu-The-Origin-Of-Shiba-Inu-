@@ -163,6 +163,9 @@ main {
           border: 0.7px solid rgba(211, 211, 211, 0.425);
           margin: 0 auto;
           margin-bottom: 10px;
+          display: flex;
+          justify-content: center;
+          flex-direction: column;
           .title1 {
             text-transform: capitalize;
             font-family: var(--Mont);
