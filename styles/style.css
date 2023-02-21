@@ -41,6 +41,22 @@
     --smaller-font-size: 0.813rem;
   }
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+*::-moz-selection {
+  color: var(--body-clr);
+  background-color: var(--white);
+}
+
+*::selection {
+  color: var(--body-clr);
+  background-color: var(--white);
+}
+
 body {
   background-color: var(--body-clr);
   font-family: var(--open);
@@ -109,11 +125,11 @@ main #home .container .row .row h2 {
 main #home .container .row .home-img img {
   width: 100%;
 }
-main #tokenomics {
+main #roadmap {
   width: 100%;
   padding-top: 20px;
 }
-main #tokenomics .container .title {
+main #roadmap .container .title {
   font-size: var(--biggest-font-size);
   text-align: center;
   font-family: var(--Mont);
@@ -124,15 +140,15 @@ main #tokenomics .container .title {
   margin: 0 auto;
   text-transform: capitalize;
 }
-main #tokenomics .container .title span {
+main #roadmap .container .title span {
   color: var(--clr-sec);
 }
-main #tokenomics .container .row {
+main #roadmap .container .row {
   margin: 0 auto;
   justify-content: space-between;
   margin-top: 20px;
 }
-main #tokenomics .container .row div {
+main #roadmap .container .row div {
   background-color: transparent;
   min-height: 300px;
   border-radius: 9px;
@@ -144,15 +160,65 @@ main #tokenomics .container .row div {
   justify-content: center;
   flex-direction: column;
 }
-main #tokenomics .container .row div .title1 {
+main #roadmap .container .row div .title1 {
   text-transform: capitalize;
   font-family: var(--Mont);
   font-weight: var(--MontSemi);
   font-size: var(--h2-font-size);
 }
-main #tokenomics .container .row div h4 {
+main #roadmap .container .row div h4 {
   font-size: var(--h3-font-size);
 }
-main #tokenomics .container .row div p {
+main #roadmap .container .row div p {
   color: #b3b3b3;
+}
+
+footer {
+  width: 100vw;
+  background-color: var(--clr-primary);
+  margin-top: 5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+footer .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .container ul {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+  margin-top: 2rem;
+}
+footer .container ul a {
+  color: var(--clr-sec);
+}
+footer .container ul a i {
+  font-size: var(--h1-font-size);
+}
+footer .copyright {
+  background-color: #2b2b2b;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .copyright .container {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+}
+footer .copyright .container p {
+  font-family: var(--Mont);
+  text-transform: capitalize;
+  display: block;
+  height: inherit;
 }/*# sourceMappingURL=style.css.map */
